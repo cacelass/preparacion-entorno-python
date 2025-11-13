@@ -16,7 +16,7 @@ uv sync
 En el directorio en el que quieras guardar tu proyecto generado:
 
 ```bash
-cookiecutter https://github.com/cacelass/preparacion-entorno
+cookiecutter https://github.com/cacelass/preparacion-entorno-python.git
 ```
 Instalar lo necesario para el proyecto...
 
