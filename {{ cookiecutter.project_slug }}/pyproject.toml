@@ -1,5 +1,5 @@
 [project]
-name = "practica3"
+name = "{{ cookiecutter.project_module_name }}"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,10 +13,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv.workspace]
-members = ["practica3/src"]
+members = ["{{ cookiecutter.project_slug }}/src"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/practica3"]
+packages = ["src/{{ cookiecutter.project_module_name }}"]
