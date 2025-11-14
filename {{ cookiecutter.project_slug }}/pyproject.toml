@@ -3,7 +3,7 @@ name = "{{ cookiecutter.project_module_name }}"
 version = "{{ cookiecutter.project_version }}"
 description = "{{ cookiecutter.project_description }}"
 readme = "README.md"
-requires-python = "{{ cookiecutter.python_version }}"
+requires-python = ">={{ cookiecutter.python_version }}"
 dependencies = [
     "pytest>=9.0.1",
 ]
