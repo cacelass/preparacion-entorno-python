@@ -1,1 +1,1 @@
-from practica3.main import
+#from {{ cookiecutter.project_module_name }} .main import
