@@ -1,9 +1,9 @@
 [project]
 name = "{{ cookiecutter.project_module_name }}"
-version = "0.1.0"
-description = "Add your description here"
+version = "{{ cookiecutter.project_version }}"
+description = "{{ cookiecutter.project_description }}"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "{{ cookiecutter.python_version }}"
 dependencies = [
     "pytest>=9.0.1",
 ]
