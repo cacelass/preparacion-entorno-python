@@ -109,4 +109,10 @@
 # def test_<que_hace>():
 #     <var> = <funcion_a_probar>()
 #     assert <var> == True
+#
+#def test_coche_kilometraje_modificado():
+#    with pytest.raises(Error_de_kilometraje):
+#        coche2 = Coche("Ibiza", 120, 710000) 
+#        coche2.kilometraje=20000
+#        print(coche2.kilometraje)
 #####################################################################################
