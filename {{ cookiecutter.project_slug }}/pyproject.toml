@@ -4,7 +4,11 @@ version = "{{ cookiecutter.project_version }}"
 description = "{{ cookiecutter.project_description }}"
 readme = "README.md"
 requires-python = ">={{ cookiecutter.python_version }}"
-dependencies = [
+dependencies = []
+
+[dependency-groups]
+lint = [
+    "ruff>=0.14.7",
     "pytest>=9.0.1",
 ]
 
