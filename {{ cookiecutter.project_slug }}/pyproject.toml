@@ -9,7 +9,7 @@ dependencies = []
 [dependency-groups]
 lint = [
     "ruff>=0.14.7",
-    "pytest>=9.0.1",
+    "ty",
 ]
 
 [build-system]
