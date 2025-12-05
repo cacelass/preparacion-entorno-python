@@ -22,6 +22,7 @@ Instalar lo necesario para el proyecto...
 ```bash
 cd <nombre_directorio_creado>
 uv sync
+uv run pytest
 uvx ty check <documento>.py
 ```
 
