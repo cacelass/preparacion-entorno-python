@@ -8,7 +8,6 @@
 ``` bash
 apt install cookiecutter
 wget -qO- https://astral.sh/uv/install.sh | sh
-uv sync
 ```
 
 ## Crear un nuevo proyecto
@@ -22,7 +21,8 @@ Instalar lo necesario para el proyecto...
 
 ```bash
 cd <nombre_directorio_creado>
-uv run pytest
+uv sync
+uvx ty check <documento>.py
 ```
 
 
