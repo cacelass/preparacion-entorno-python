@@ -10,6 +10,7 @@ dependencies = []
 lint = [
     "ruff>=0.14.7",
     "ty",
+    "pytest",
 ]
 
 [build-system]
