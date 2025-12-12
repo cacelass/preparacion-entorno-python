@@ -26,6 +26,7 @@ uv sync
 uv run pytest
 uvx ty check <documento>.py
 sphinx-apidoc -o docs/source/ src/.
+cd doc/ --> make html
 ```
 
 
