@@ -11,6 +11,8 @@ lint = [
     "ruff>=0.14.7",
     "ty",
     "pytest",
+    "sphinx",
+    "sphinx_rtd_theme",
 ]
 
 [build-system]
