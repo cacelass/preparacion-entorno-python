@@ -25,7 +25,31 @@ cd <nombre_directorio_creado>
 uv sync
 uv run pytest
 uvx ty check <documento>.py
-sphinx-apidoc -o docs/source/ src/
+sphinx-apidoc -o docs/source/ src/.
+├── {{ cookiecutter.project_slug }}
+│   ├── ayuda
+│   ├── doc
+│   │   ├── build
+│   │   ├── make.bat
+│   │   ├── Makefile
+│   │   └── source
+│   │       ├── conf.py
+│   │       ├── index.rst
+│   │       ├── _static
+│   │       └── _templates
+│   ├── make.bat
+│   ├── Makefile
+│   ├── pyproject.toml
+│   ├── README.md
+│   └── src
+│       ├── {{ cookiecutter.project_module_name }}
+│       │   ├── __init__.py
+│       │   └── main.py
+│       └── test
+│           ├── __init__.py
+│           └── test_proba.py
+├── cookiecutter.json
+└── README.md
 ```
 
 
@@ -33,15 +57,26 @@ sphinx-apidoc -o docs/source/ src/
 
     .
     ├── {{ cookiecutter.project_slug }}
-    │   ├── pyproject.toml
-    │   ├── README.md
-    │   └── src
-    │       ├── {{ cookiecutter.project_module_name }}
-    │       │   ├── __init__.py
-    │       │   └── main.py
-    │       └── test
-    │           ├── __init__.py
-    │           └── test_proba.py
+    │   ├── ayuda
+    │   ├── doc
+    │   │   ├── build
+    │   │   ├── make.bat
+    │   │   ├── Makefile
+    │   │   └── source
+    │   │       ├── conf.py
+    │   │       ├── index.rst
+    │   │       ├── _static
+    │   │       └── _templates
+    │   ├── make.bat
+    │   ├── Makefile
+    │   ├── pyproject.toml
+    │   ├── README.md
+    │   └── src
+    │       ├── {{ cookiecutter.project_module_name }}
+    │       │   ├── __init__.py
+    │       │   └── main.py
+    │       └── test
+    │           ├── __init__.py
+    │           └── test_proba.py
     ├── cookiecutter.json
-    ├── pyproject.toml
     └── README.md
