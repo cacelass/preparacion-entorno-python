@@ -8,6 +8,7 @@
 ``` bash
 apt install cookiecutter
 wget -qO- https://astral.sh/uv/install.sh | sh
+apt install python3-sphinx
 ```
 
 ## Crear un nuevo proyecto
@@ -24,6 +25,7 @@ cd <nombre_directorio_creado>
 uv sync
 uv run pytest
 uvx ty check <documento>.py
+sphinx-apidoc -o docs/source/ src/
 ```
 
 
