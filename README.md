@@ -35,6 +35,7 @@ cd doc/ --> make html
     .
     ├── {{ cookiecutter.project_slug }}
     │   ├── ayuda
+    │   ├── data
     │   ├── doc
     │   │   ├── build
     │   │   ├── make.bat
@@ -44,8 +45,6 @@ cd doc/ --> make html
     │   │       ├── index.rst
     │   │       ├── _static
     │   │       └── _templates
-    │   ├── make.bat
-    │   ├── Makefile
     │   ├── pyproject.toml
     │   ├── README.md
     │   └── src
