@@ -6,13 +6,23 @@
 
 ## Estructura de directorios y archivos resultantes
 
-    {{ cookiecutter.project_slug }}
+    .
+    ├── ayuda
+    ├── data
+    ├── docs
+    │   ├── build
+    │   ├── make.bat
+    │   ├── Makefile
+    │   └── source
+    │       ├── conf.py
+    │       ├── index.rst
+    │       └── _static
     ├── pyproject.toml
     ├── README.md
     └── src
         ├── {{ cookiecutter.project_module_name }}
-        │   ├── __init__.py
-        │   └── main.py
+        │   ├── __init__.py
+        │   └── main.py
         └── test
-            ├── __init__.py
-            └── test_proba.py
+            ├── __init__.py
+            └── test_proba.py
