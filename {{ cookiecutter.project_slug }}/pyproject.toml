@@ -13,6 +13,10 @@ lint = [
     "pytest",
     "sphinx",
     "sphinx_rtd_theme",
+    "numpy",
+    "pandas",
+    "opencv",
+    "matplotlib",
 ]
 
 [build-system]
