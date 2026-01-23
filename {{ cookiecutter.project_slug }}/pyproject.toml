@@ -4,7 +4,12 @@ version = "{{ cookiecutter.project_version }}"
 description = "{{ cookiecutter.project_description }}"
 readme = "README.md"
 requires-python = ">={{ cookiecutter.python_version }}"
-dependencies = []
+dependencies = [
+    "numpy",
+    "pandas",
+    "opencv-python",
+    "matplotlib",    
+]
 
 [dependency-groups]
 lint = [
@@ -13,10 +18,6 @@ lint = [
     "pytest",
     "sphinx",
     "sphinx_rtd_theme",
-    "numpy",
-    "pandas",
-    "opencv-python",
-    "matplotlib",
 ]
 
 [build-system]
