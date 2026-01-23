@@ -15,7 +15,7 @@ lint = [
     "sphinx_rtd_theme",
     "numpy",
     "pandas",
-    "opencv",
+    "opencv-python",
     "matplotlib",
 ]
 
