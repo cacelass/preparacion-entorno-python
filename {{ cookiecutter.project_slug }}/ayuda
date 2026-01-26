@@ -3,6 +3,7 @@
 #####################################################################################
 #
 # uv sync
+# uv sync --group lint
 # source .venv/bin/activate
 # uv run pytest
 # sphinx-apidoc -o docs/source/ src/
