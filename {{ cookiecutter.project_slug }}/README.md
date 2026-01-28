@@ -7,22 +7,27 @@
 ## Estructura de directorios y archivos resultantes
 
     .
-    ├── ayuda
-    ├── data
-    ├── docs
-    │   ├── build
-    │   ├── make.bat
+    ├── {{ cookiecutter.project_slug }}
+    │   ├── ayuda
+    │   ├── data
+    │   ├── docs
+    │   │   ├── build
+    │   │   ├── make.bat
+    │   │   ├── Makefile
+    │   │   └── source
+    │   │       ├── conf.py
+    │   │       ├── index.rst
+    │   │       └── _static
     │   ├── Makefile
-    │   └── source
-    │       ├── conf.py
-    │       ├── index.rst
-    │       └── _static
-    ├── pyproject.toml
-    ├── README.md
-    └── src
-        ├── {{ cookiecutter.project_module_name }}
-        │   ├── __init__.py
-        │   └── main.py
-        └── test
-            ├── __init__.py
-            └── test_proba.py
+    │   ├── pyproject.toml
+    │   ├── README.md
+    │   ├── src
+    │   │   └── {{ cookiecutter.project_module_name }}
+    │   │       ├── __init__.py
+    │   │       ├── __main__.py
+    │   │       └── main.py
+    │   └── tests
+    │       ├── __init__.py
+    │       └── test_proba.py
+    ├── cookiecutter.json
+    └── README.md
