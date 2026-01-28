@@ -1,4 +1,17 @@
-# Cookiecuter Personal
+# Preparación de Entorno Python
+**Cookiecutter Personal**
+
+`preparacion-entorno-python` es un **template de Cookiecutter** que permite crear proyectos Python **estructurados y listos para desarrollo profesional**, incluyendo:
+
+- Entorno virtual gestionado por **uv**.  
+- Linting con **Ruff**.  
+- Testing con **pytest**.  
+- Documentación automática con **Sphinx**.  
+- Soporte opcional para **Machine Learning** (`numpy`, `pandas`, `matplotlib`, `opencv-python`).  
+
+Este template es ideal para iniciar proyectos de Python organizados y escalables, con buenas prácticas ya incorporadas.  
+
+---
 
 ## Requiremientos
 
