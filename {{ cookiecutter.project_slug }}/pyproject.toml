@@ -13,12 +13,21 @@ dev = [
     "pytest",
     "sphinx",
     "sphinx-rtd-theme",
+    "ty",
 ]
 
 ml = [
     "numpy",
     "pandas",
     "matplotlib",
+    "opencv-python",
+]
+
+bd = [
+    "chromadb",
+]
+
+vision = [
     "opencv-python",
 ]
 
