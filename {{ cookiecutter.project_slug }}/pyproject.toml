@@ -21,6 +21,9 @@ ml = [
     "pandas",
     "matplotlib",
     "opencv-python",
+    "torch",
+    "torchvision",
+    "torchaudio",
 ]
 
 bd = [
