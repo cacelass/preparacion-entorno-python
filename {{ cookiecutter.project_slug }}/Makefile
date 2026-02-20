@@ -1,7 +1,7 @@
 .PHONY: setup test docs lint clean
 
 setup:
-	uv sync --extra dev --extra ml --extra db --extra vision
+	uv sync --extra dev --extra ml 
 
 test:
 	uv run pytest
