@@ -14,6 +14,7 @@ dev = [
     "sphinx",
     "sphinx-rtd-theme",
     "ty",
+    "tensorboard",
 ]
 
 ml = [
