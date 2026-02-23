@@ -24,7 +24,8 @@ ml = [
     "torch",
     "torchvision",
     "torchaudio",
-    "tensorboard",
+    "setuptools<82.0.0",
+    "tensorboard>=2.20.0",
 ]
 
 db = [
