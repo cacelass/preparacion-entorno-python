@@ -18,9 +18,9 @@ dev = [
 
 ml = [
     "numpy",
+    "polars",
     "pandas",
     "matplotlib",
-    "opencv-python",
     "torch",
     "torchvision",
     "torchaudio",
