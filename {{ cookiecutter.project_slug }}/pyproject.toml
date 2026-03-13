@@ -24,6 +24,7 @@ ml = [
     "torch",
     "torchvision",
     "torchaudio",
+    "scikit-learn",
     "setuptools<82.0.0",
     "tensorboard>=2.20.0",
 ]
